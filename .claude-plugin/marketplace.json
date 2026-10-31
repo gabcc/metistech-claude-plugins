@@ -1,0 +1,12 @@
+{
+  "name": "metistech-plugins",
+  "owner": { "name": "Metistech" },
+  "description": "Internal Claude Code plugins for the Metistech team.",
+  "plugins": [
+    {
+      "name": "metistech",
+      "source": "./",
+      "description": "Metistech team skills: Linear time logging and reporting."
+    }
+  ]
+}

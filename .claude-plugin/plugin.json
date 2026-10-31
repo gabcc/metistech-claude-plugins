@@ -1,0 +1,7 @@
+{
+  "name": "metistech",
+  "version": "0.1.0",
+  "description": "Metistech team skills: Linear time logging and reporting.",
+  "author": { "name": "Metistech" },
+  "skills": ["./skills/linear-time-logger"]
+}
