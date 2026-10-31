@@ -11,7 +11,7 @@ Internal plugin for the Metistech team. Skills show up as `metistech:<skill>`.
 1. Connect Linear with your own Linear account. Changes are attributed to whoever is signed in, and the email in each time log comes from that account, so don't share a connection.
    - **claude.ai connector:** claude.ai → Settings → Connectors → Linear. This only reaches Claude Code if you are signed in to Claude Code with the same claude.ai account.
    - **Direct connection** (otherwise): `claude mcp add --transport http linear https://mcp.linear.app/mcp`, then `/mcp` to sign in.
-2. Install the plugin (you need read access to this private repo, and `git clone` from GitHub must already work for you):
+2. Install the plugin:
    ```
    claude plugin marketplace add gabcc/metistech-claude-plugins
    claude plugin install metistech@metistech-plugins
